@@ -101,6 +101,14 @@ nav {
     backdrop-filter: blur(12vmax);
     z-index: -1; /* Adjust the z-index to ensure it's on top of other content */
 }
+@media (max-width: 768px) {
+    #blob{
+        display: none;
+    }
+    #blur{
+        display: none;
+    }
+}
 
 /* Loading overlay */
 .loading-overlay {
