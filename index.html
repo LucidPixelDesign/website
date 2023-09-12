@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucid Pixel</title>
     <link rel="icon" href="./Lucid Pixel Logo.png">
     <link rel="stylesheet" href="globalStyles.css">
@@ -83,6 +83,16 @@
             filter: blur(5px);
 
         }
+
+        @media screen and (max-width: 767px) {
+            .fade-in-text-fromleft {
+                transform: translateX(0%);
+
+            }
+        }
+
+
+
 
         /* Style when the text should fade in */
         .fade-in-fromleft{
@@ -365,7 +375,7 @@
         }
     </style>
 </head>
-<body >
+<body style="overflow-x: hidden;">
     
     <header>
         <nav>
