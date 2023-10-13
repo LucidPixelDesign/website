@@ -140,8 +140,20 @@ nav {
     text-align: center;
 }
 
+.footer-links{
+    text-align: left;
+    color: #616161;
+    transition-duration: 0.4s;
+    text-decoration: none;
+
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
+
 /* Container for columns */
 .footer-content {
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -160,6 +172,10 @@ nav {
 .footer-column ul {
     list-style: none;
     padding: 0;
+}
+
+.footer-column li {
+    margin-top: 10px;
 }
 
 .footer-column h3 {
