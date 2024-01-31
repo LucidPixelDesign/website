@@ -98,7 +98,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(12vmax);
+    backdrop-filter: blur(4vmax);
     z-index: -1; /* Adjust the z-index to ensure it's on top of other content */
 }
 @media (max-width: 768px) {
