@@ -4,21 +4,33 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>http://www.lucidpixeldesign.com/</loc>
-  <lastmod>2023-15-16T17:32:42+00:00</lastmod>
-</url>
-<url>
-  <loc>http://www.lucidpixeldesign.com/pricing/</loc>
-  <lastmod>2023-15-16T17:32:42+00:00</lastmod>
-</url>
-<url>
-  <loc>http://www.lucidpixeldesign.com/about/</loc>
-  <lastmod>2023-15-16T17:32:42+00:00</lastmod>
-</url>
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.lucidpixeldesign.com/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://www.lucidpixeldesign.com/about</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pricing Page -->
+  <url>
+    <loc>https://www.lucidpixeldesign.com/pricing</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Other Pages... -->
 
 
 </urlset>
