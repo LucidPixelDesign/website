@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /* Style the header and navigation */
 header {
     padding: 10px 0;
@@ -93,12 +94,12 @@ nav {
 
 #blur {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(4vmax);
+    backdrop-filter: blur(2vmax);
     z-index: -1; /* Adjust the z-index to ensure it's on top of other content */
 }
 @media (max-width: 768px) {

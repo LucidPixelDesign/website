@@ -6,17 +6,20 @@
     <title>Lucid Pixel - Premium Web Design</title>
     <link rel="shortcut icon" href="https://www.lucidpixeldesign.com/Lucid-Pixel-Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="globalStyles.css">
-    <meta name="description" content="At Lucid Pixel Web Design, we are more than just a web design company; we are passionate architects of digital experiences. Our mission is to empower businesses and individuals by creating captivating, functional, and user-centric websites that leave a lasting impact. We envision a digital world where every website tells a unique story, engages its audience effortlessly, and serves as a powerful tool for achieving goals, whether they are business growth, artistic expression, or community building."/>
+    <link rel="robots" href="/robots.txt">
 
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="Lucid Pixel Design">
-    <meta property="og:description" content="At Lucid Pixel Web Design, we are more than just a web design company; we are passionate architects of digital experiences. Our mission is to empower businesses and individuals by creating captivating, functional, and user-centric websites that leave a lasting impact. We envision a digital world where every website tells a unique story, engages its audience effortlessly, and serves as a powerful tool for achieving goals, whether they are business growth, artistic expression, or community building.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.lucidpixeldesign.com/">
-    <meta property="og:image" content="https://www.lucidpixeldesign.com/Lucid-Pixel-Logo.png">
-    <meta property="og:image:alt" content="Lucid Pixel Logo">
 
-    
+<!-- Meta tags for search engines -->
+<meta name="description" content="Lucid Pixel Web Design: Crafting immersive digital experiences. Empowering businesses and individuals with captivating, functional, and user-centric websites. Envision a digital world where every website tells a unique story and serves as a powerful tool for achieving goals.">
+<meta name="keywords" content="web design, Lucid Pixel, digital experiences, user-centric websites, business empowerment, artistic expression, community building, lucid pixel website design">
+
+<!-- Open Graph meta tags -->
+<meta property="og:title" content="Lucid Pixel Web Design">
+<meta property="og:description" content="Crafting immersive digital experiences. Empowering businesses and individuals with captivating, functional, and user-centric websites. Envision a digital world where every website tells a unique story and serves as a powerful tool for achieving goals.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.lucidpixeldesign.com/">
+<meta property="og:image" content="https://www.lucidpixeldesign.com/Lucid-Pixel-Logo.png">
+<meta property="og:image:alt" content="Lucid Pixel Logo">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LNZHMXWXC"></script>
     <script>
@@ -88,6 +91,7 @@
             height: 200px;
             border-radius: 20px;
             overflow: hidden;
+            border: none;
         }
 
         }
@@ -114,6 +118,7 @@
         }
 
         .squareFrame{
+            border: none;
             height: 100%;
             width: 100%;
         }
@@ -449,15 +454,15 @@
     </header>
 
       
-<div id="blob"></div>
-<div id="blur"></div>
+<div id="blob" aria-label="This is a creative asnd stylistic spotlight blob that follows your mouse"></div>
+<div id="blur" aria-label="This is a background blur to let text stand out"></div>
 
 
     <div class="title">Lucid Pixel Web Design</div>
 
     <div class="container">
         <div class="square" id="foldableSquare">
-            <div class="squareFrame"></div>
+            <div class="squareFrame" aria-label="This is a foldable element with an image of a futuristic and modern computer designing websites and code"></div>
         </div>
     </div>
 
@@ -465,14 +470,14 @@
         <p>First Impressions are Everything</p>
     </div>
 
-    <div class="card-container">
+    <div class="card-container" aria-label="This containes various images of the same person but in different outfits and styles, showing the importance of first impressions">
         <div class="fade-in-text-fromleft card" style="background-image: url(./example2.jpg)"> </div>
         <div class="fade-in-text-fromleft card"  style="background-image: url(./example4.jpg)"> </div>
         <div class="fade-in-text-fromleft card"  style="background-image: url(./example3.jpg)"> </div>
         <div class="fade-in-text-fromleft card"  style="background-image: url(./example1.jpg)"> </div>
     </div>
     <div class="title"> These are all pictures of the same person</div>
-    <div class="bodyText"> But we get a different impression from each picture</div>
+    <div style="font-size: 30px;" class="bodyText"> But we get a different impression from each picture</div>
     
     <div class="uiSeperator"></div>
 
@@ -506,7 +511,7 @@
     
 
     <div class="title">Pricing</div>
-    <div id="cards2">
+    <div id="cards2" aria-label="This element containes different pricing and plans for different tiers of websites">
         <div class="card2" >
             <a href="https://www.lucidpixeldesign.com/standardSite" class="card-front-image card-image" style="background-image: url(./green.jpg)" />
                 <div class="PriceDisplayTop">Standard</div>
@@ -556,31 +561,35 @@
     </div>
     <a href="https://www.lucidpixeldesign.com/pricing" class="bodyTextUnderlined">See More>></a>
 
+    
+    <article>
+
+
     <div class="uiSeperator"></div>
     <div class="title fade-in-text-fromright">Satisfaction Guarentee</div>
-    <div class="bodyText fade-in-text-fromleft">We provide a 100% satisfaction guarentee on all of our websites for 30 days. If you are unsatisfied for any reason within 30 days, we will give a full refund.</div>
+    <p class="bodyText fade-in-text-fromleft">We provide a 100% satisfaction guarentee on all of our websites for 30 days. If you are unsatisfied for any reason within 30 days, we will give a full refund.</p>
   
     <div class="uiSeperator"></div>
     <div class="title fade-in-text-fromright">Your Website Is The Face Of Your Business</div>
     <br/>
-    <div class="bodyText fade-in-text-fromleft">In the digital age, your website is your business's first handshake with the world. At Lucid Pixel, we recognize that it's more than pixels—it's your brand's initial interaction with potential customers. A well-crafted website isn't just aesthetically pleasing; it's your competitive advantage. Let us create a compelling digital narrative that converts visitors into loyal customers, ensuring your online presence leaves a lasting impression.</div>
+    <p class="bodyText fade-in-text-fromleft">In the digital age, your website is your business's first handshake with the world. At Lucid Pixel, we recognize that it's more than pixels—it's your brand's initial interaction with potential customers. A well-crafted website isn't just aesthetically pleasing; it's your competitive advantage. Let us create a compelling digital narrative that converts visitors into loyal customers, ensuring your online presence leaves a lasting impression.</p>
     <br/>
     <div class="title fade-in-text-fromright">Don't Let Your Business Have An Ugly Face</div>
 
 
     <div class="uiSeperator"></div>
     <div class="title fade-in-text-fromright">Only The Best</div>
-    <div class="bodyText fade-in-text-fromleft">All of our websites are handcrafted for each of our customers. We offer modern and clean designs to help you stand out from competators. We also offer website hosting where we can host, manage, and update your website, for only $25 a month.</div>
+    <p class="bodyText fade-in-text-fromleft">All of our websites are handcrafted for each of our customers. We offer modern and clean designs to help you stand out from competators. We also offer website hosting where we can host, manage, and update your website, for only $25 a month.</p>
 
 
 
     <div class="uiSeperator"></div>
     <div class="title fade-in-text-fromright">Website hosting</div>
-    <div class="bodyText fade-in-text-fromleft">We provide website hosting for just $25 per month, although it's entirely optional. Alternatively, you can choose to self-host your website using a third-party provider. With our hosting service, you have the flexibility to cancel at any time. Additionally, our hosting package includes a domain name, or you can opt to use your existing domain, which we can connect to your website.</div>
+    <p class="bodyText fade-in-text-fromleft">We provide website hosting for just $25 per month, although it's entirely optional. Alternatively, you can choose to self-host your website using a third-party provider. With our hosting service, you have the flexibility to cancel at any time. Additionally, our hosting package includes a domain name, or you can opt to use your existing domain, which we can connect to your website.</p>
     <div class="uiSeperator"></div>
 
     <div class="title">Frequently Asked Questions</div>
-    <div class="FAQContainer">
+    <div class="FAQContainer" aria-label="Creative, Stylized, and Dynamic Frequently asked questions container">
         <button class="FAQ fade-in-text-forFAQ">Why Choose Us?</button>
         <div class="panel" >
             <p>We break free from the ordinary. While others deliver bland websites resembling newspapers and magazines, we offer fluid and creative designs that set you apart. Choose us for quality websites that lead, not follow.</p>
@@ -608,6 +617,8 @@
     <div class="title fade-in-text-fromright">Contact Us</div>
     <div class="bodyText fade-in-text-fromleft">If you have any questions, feel free to send us an email at:</div>
     <a class="bodyText fade-in-text-fromleft" style="color: mediumpurple;" onmouseover="this.style.color='aquamarine'" onmouseout="this.style.color='mediumpurple'" href="mailto:hello@lucidpixeldesign.com">hello@lucidpixeldesign.com</a>
+
+</article>
 
     <br/><br/><br/><br/>
     <footer class="footer">
@@ -638,6 +649,18 @@
             </div>
         </div>
     </footer>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://www.lucidpixeldesign.com",
+            "name": "Lucid Pixel Design",
+            "description": "Custom website design services with SEO optimization.",
+            "logo": "https://www.lucidpixeldesign.com/Lucid-Pixel-Logo.png"
+        }
+    </script>
     
     <script>
 
